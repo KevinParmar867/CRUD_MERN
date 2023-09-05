@@ -1,0 +1,46 @@
+.ImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  margin: auto;
+}
+.circle {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+.profile-pic {
+  width: 100%;
+  height: 100%;
+}
+.profile-image {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #eee;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+}
+
+.profile-image:hover{
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.upload-button{
+    font-size: 20px;
+    padding: 12px;
+    background: #f44336;
+    border-radius: 50%;
+}
+
+.upload-button:hover{
+    color: #fff;
+}
+.file-upload{
+    display: none;
+}
